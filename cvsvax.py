@@ -1,11 +1,3 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
-Created on Wed Mar  3 15:21:04 2021
-
-@author: cabrown802
-"""
-
 import urllib.request
 import threading
 import smtplib
@@ -20,7 +12,7 @@ def gather_info():
     # How often to refresh the page, in seconds
     UPDATE = 60.0
     # Port for SSLport 
-    port= 465
+    port = 465
     # Message in the email.
     message = "Book an appointment at CVS! https://www.cvs.com/immunizations/covid-19-vaccine"
     # Create a secure SSL context
